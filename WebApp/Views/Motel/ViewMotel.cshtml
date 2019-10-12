@@ -1,0 +1,291 @@
+﻿<!DOCTYPE html>
+@using WebApp.Models
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="~/Content/Style/MyMotel.css" rel="stylesheet" />
+    <style>
+        *, html {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .menu {
+            height: 5vh;
+        }
+    </style>
+</head>
+@{
+    //var data = (Login)ViewData["USER"];
+    var user = (Account)Session["USER"];
+}
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu" style="z-index: 999">
+        <a class="navbar-brand" href="/Search/Search">Masion</a>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+            <ul style="height: 100%; margin-top: 15px">
+                <li style="height: 100%" class="nav-item dropdown">
+                    <a style="color:#fff; line-height: 100%" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Hello @user.UserName</a>
+                    <div class="dropdown-menu" style="z-index: 999; transform: translateX(-30px)">
+                        <a class="dropdown-item" href="/Motel/ViewMotel/">My Motel</a>
+                        <a class="dropdown-item" href="/Account/AccountPage/">My Profile</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="" onclick="Logout()">Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row" style="width: 85%; margin: 0 auto">
+            @if (ViewBag.MOTELLIST != null)
+            {
+            <section id="pinBoot">
+                @foreach (var dto in ViewBag.MOTELLIST)
+                {
+                    <article class="white-panel card" style="width: 18rem;">
+                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">@dto.Name</h5>
+                            <p class="card-text">@dto.Address</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item info">@dto.Information</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="/Room/Index/?id=@dto.ID" class="card-link">Motel's Room</a>
+                            <a href="/Motel/Delete/?id=@dto.ID" class="card-link">Delete</a>
+                        </div>
+                    </article>
+                }
+            </section>
+            }
+            @if (ViewBag.MOTELLIST.Count == 0)
+            {
+            <div style="position: absolute; transform: translate(-50%, -50%);top:50%;left:50%">
+                <p>You don't have motel yet ! <a href="/Motel/InsertPage" style="border-bottom: 1px solid rgba(0, 0, 0,.4); cursor:pointer">Create One ?</a></p>
+            </div> 
+            }
+        </div>
+    </div>
+    <script>
+        function Logout() {
+            if (@user.Type === 1) {
+
+            } else if (@user.Type === 2) {
+                FB.logout(function (response) {
+
+                });
+            } else if (@user.Type === 3) {
+                var auth2 = gapi.auth2.getAuthInstance();
+	            auth2.signOut().then(function () {
+       	            auth2.disconnect();
+	           });
+            }
+            window.location = "/Account/Index";
+        }
+        $(function() {
+            $('#input-search').on('keyup', function() {
+                var rex = new RegExp($(this).val(), 'i');
+                $('.searchable-container .items').hide();
+                $('.searchable-container .items').filter(function() {
+                    return rex.test($(this).text());
+                }).show();
+            });
+        });
+    </script>
+    <script>
+        var listInfo = document.getElementsByClassName("info");
+        for (var i = 0; i < listInfo.length; i++) {
+            var tmp = listInfo[i].innerText;
+            if (tmp.length >= 150) {
+                tmp = tmp.substring(0, 150);
+                tmp = tmp + '...';
+            }
+            listInfo[i].innerText = tmp;
+        }
+        function Logout() {
+            if (@user.Type === 1) {
+
+            } else if (@user.Type === 2) {
+                FB.logout(function (response) {
+
+                });
+            } else if (@user.Type === 3) {
+                var auth2 = gapi.auth2.getAuthInstance();
+	            auth2.signOut().then(function () {
+       	            auth2.disconnect();
+	           });
+            }
+            window.location = "/Account/Index";
+        }
+    </script>
+    <script>
+        $(document).ready(function() {
+$('#pinBoot').pinterest_grid({
+no_columns: 4,
+padding_x: 10,
+padding_y: 10,
+margin_bottom: 50,
+single_column_breakpoint: 700
+});
+});
+
+/*
+Ref:
+Thanks to:
+http://www.jqueryscript.net/layout/Simple-jQuery-Plugin-To-Create-Pinterest-Style-Grid-Layout-Pinterest-Grid.html
+*/
+
+
+;(function ($, window, document, undefined) {
+    var pluginName = 'pinterest_grid',
+        defaults = {
+            padding_x: 10,
+            padding_y: 10,
+            no_columns: 3,
+            margin_bottom: 50,
+            single_column_breakpoint: 700
+        },
+        columns,
+        $article,
+        article_width;
+
+    function Plugin(element, options) {
+        this.element = element;
+        this.options = $.extend({}, defaults, options) ;
+        this._defaults = defaults;
+        this._name = pluginName;
+        this.init();
+    }
+
+    Plugin.prototype.init = function () {
+        var self = this,
+            resize_finish;
+
+        $(window).resize(function() {
+            clearTimeout(resize_finish);
+            resize_finish = setTimeout( function () {
+                self.make_layout_change(self);
+            }, 11);
+        });
+
+        self.make_layout_change(self);
+
+        setTimeout(function() {
+            $(window).resize();
+        }, 500);
+    };
+
+    Plugin.prototype.calculate = function (single_column_mode) {
+        var self = this,
+            tallest = 0,
+            row = 0,
+            $container = $(this.element),
+            container_width = $container.width();
+            $article = $(this.element).children();
+
+        if(single_column_mode === true) {
+            article_width = $container.width() - self.options.padding_x;
+        } else {
+            article_width = ($container.width() - self.options.padding_x * self.options.no_columns) / self.options.no_columns;
+        }
+
+        $article.each(function() {
+            $(this).css('width', article_width);
+        });
+
+        columns = self.options.no_columns;
+
+        $article.each(function(index) {
+            var current_column,
+                left_out = 0,
+                top = 0,
+                $this = $(this),
+                prevAll = $this.prevAll(),
+                tallest = 0;
+
+            if(single_column_mode === false) {
+                current_column = (index % columns);
+            } else {
+                current_column = 0;
+            }
+
+            for(var t = 0; t < columns; t++) {
+                $this.removeClass('c'+t);
+            }
+
+            if(index % columns === 0) {
+                row++;
+            }
+
+            $this.addClass('c' + current_column);
+            $this.addClass('r' + row);
+
+            prevAll.each(function(index) {
+                if($(this).hasClass('c' + current_column)) {
+                    top += $(this).outerHeight() + self.options.padding_y;
+                }
+            });
+
+            if(single_column_mode === true) {
+                left_out = 0;
+            } else {
+                left_out = (index % columns) * (article_width + self.options.padding_x);
+            }
+
+            $this.css({
+                'left': left_out,
+                'top' : top
+            });
+        });
+
+        this.tallest($container);
+        $(window).resize();
+    };
+
+    Plugin.prototype.tallest = function (_container) {
+        var column_heights = [],
+            largest = 0;
+
+        for(var z = 0; z < columns; z++) {
+            var temp_height = 0;
+            _container.find('.c'+z).each(function() {
+                temp_height += $(this).outerHeight();
+            });
+            column_heights[z] = temp_height;
+        }
+
+        largest = Math.max.apply(Math, column_heights);
+        _container.css('height', largest + (this.options.padding_y + this.options.margin_bottom));
+    };
+
+    Plugin.prototype.make_layout_change = function (_self) {
+        if($(window).width() < _self.options.single_column_breakpoint) {
+            _self.calculate(true);
+        } else {
+            _self.calculate(false);
+        }
+    };
+
+    $.fn[pluginName] = function (options) {
+        return this.each(function () {
+            if (!$.data(this, 'plugin_' + pluginName)) {
+                $.data(this, 'plugin_' + pluginName,
+                new Plugin(this, options));
+            }
+        });
+    }
+
+})(jQuery, window, document);
+    </script>
+</body>
+</html>

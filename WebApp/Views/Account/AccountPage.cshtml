@@ -1,0 +1,268 @@
+﻿<!DOCTYPE html>
+@using WebApp.Models
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta data-n-head="true" charset="utf-8">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="~/Content/Style/AccountPage.css" rel="stylesheet" />
+    <link href="~/Content/Style/index.css" rel="stylesheet" />
+</head>
+<body class="" data-modal-open-count="0" style="">
+    @{
+        var user = (Account)Session["USER"];
+    }
+    <!--
+        <div>
+        <div>
+            @if (user.Type == 1)
+            {
+            <div>
+                <h2>Change Password</h2>
+                <br />
+                @if (ViewBag.ERROR != null)
+                {
+                    <font color="red">@ViewBag.ERROR</font>
+                }
+
+                <form action="/Account/UpdatePassword">
+                    <input type="hidden" name="UserID" value="@user.UserId" />
+                    <table border="0">
+                        <tbody>
+                            <tr>
+                                <td width="150"><h3>Old Password</h3></td>
+                                <td>
+                                    <input type="text" name="Password" value="" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="150"><h3>New Password</h3></td>
+                                <td>
+                                    <input type="text" name="NewPassword" value="" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="150"><h3>Confirm</h3></td>
+                                <td>
+                                    <input type="text" name="ConfirmPassword" value="" />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button type="submit">Save</button>
+                </form>
+            </div>
+            }
+        </div>
+    </div>
+    -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu" style="z-index: 999">
+        <a class="navbar-brand" href="/Search/Search">Masion</a>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+            <ul style="height: 100%; margin-top: 15px">
+                <li style="height: 100%" class="nav-item dropdown">
+                    <a style="color:#fff; line-height: 100%" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Hello @user.UserName</a>
+                    <div class="dropdown-menu" style="z-index: 999; transform: translateX(-30px)">
+                        <a class="dropdown-item" href="/Motel/ViewMotel/">My Motel</a>
+                        <a class="dropdown-item" href="/Account/AccountPage/">My Profile</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="" onclick="Logout()">Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container emp-profile">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="profile-img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog" alt="" />
+                    <div class="file btn btn-lg btn-primary">
+                        Change Photo
+                        <input type="file" name="file" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="profile-head">
+                    <h5>
+                        @user.UserName
+                    </h5>
+                    <br />
+                    <br />
+                    <hr />
+                </div>
+            </div>
+            <div class="col-md-2" id="edit">
+                <input type="button" class="profile-edit-btn" name="btnAddMore" onClick="setEditable()" value="Edit Profile" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="profile-work">
+                    <p>MORE</p>
+                    <a href="">Manage Your Motel</a><br />
+                    <a href="">Your Appointment Schedule</a><br />
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="tab-content profile-tab" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <form action="/Account/UpdateDetail" method="POST">
+                            <input type="hidden" name="UserId" value="@user.UserId" />
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Name</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p id="nameEdit">
+                                        @user.UserName
+                                        @if (ViewBag.UserNameErr != null)
+                                        {
+                                            @ViewBag.UserNameErr
+                                        }
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Password</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>********</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Email</label>
+                                </div>
+                                <div class="col-md-6">
+                                    @if (user.Email.Length > 0)
+                                    {
+                                        <p id="emailEdit">@user.Email</p>
+                                    }
+                                    else
+                                    {
+                                        <p id="emailEdit">You not verify your email yet</p>
+                                    }
+                                    @if (ViewBag.EmailErr != null)
+                                    {
+                                        @ViewBag.EmailErr
+                                    }
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Phone</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p id="phoneEdit">@user.PhoneNumber</p>
+                                    @if (ViewBag.PhoneNumberErr != null)
+                                    {
+                                        @ViewBag.PhoneNumberErr
+                                    }
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Address</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p id="addressEdit">@user.Address</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Social Card Number</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p id="idEdit">@user.IDCardNumber</p>
+                                </div>
+                            </div>
+                            <div id="cancel_save" style="visibility: hidden;">
+                                <table border="0" style="width: 100%; margin-top: 15px">
+                                    <tbody>
+                                        <tr style="width: 100%">
+                                            <td><p onclick="setCancel()">Cancel</p></td>
+                                            <td style="float:right">
+                                                <button type="submit" class="btn btn-primary btn-sm">Save</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var editName = document.getElementById('nameEdit');
+        var editPhone = document.getElementById('phoneEdit');
+        var editID = document.getElementById('idEdit');
+        var editAddress = document.getElementById('addressEdit');
+        var editEmail = document.getElementById('emailEdit');
+        function setEditable() {
+            editName.innerHTML = '<input class="inputText" type="text" name="UserName" value="@user.UserName" />';
+            editPhone.innerHTML = '<input class="inputText" type="text" name="PhoneNumber" value="@user.PhoneNumber" />';
+            editID.innerHTML = '<input class="inputText" type="text" name="IDCardNumber" value="@user.IDCardNumber" />';
+            editAddress.innerHTML = '<input class="inputText" type="text" name="Address" value="@user.Address" />';
+            editEmail.innerHTML = '<input class="inputText" type="text" name="Email" value="@user.Email" />';
+
+            var editTag = document.getElementById('edit');
+            editTag.style.visibility = 'hidden';
+            editTag.style.height = '0';
+
+            var comboTag = document.getElementById('cancel_save');
+            comboTag.style.visibility = 'visible';
+        }
+        function setCancel() {
+            editName.innerHTML = '@user.UserName';
+            editPhone.innerHTML = '@user.PhoneNumber';
+            editID.innerHTML = '@user.IDCardNumber';
+            editAddress.innerHTML = '@user.Address';
+            var email = '@user.Email';
+            if (email.length > 0)
+            {
+                editEmail.innerHTML = email;
+            }
+            else
+            {
+                editEmail.innerHTML = 'You not verify your email yet';
+            }
+
+
+            var editTag = document.getElementById('edit');
+            editTag.style.visibility = 'visible';
+            editTag.style.height = '100';
+
+            var comboTag = document.getElementById('cancel_save');
+            comboTag.style.visibility = 'hidden';
+        }
+        function Logout() {
+            if (@user.Type === 1) {
+
+            } else if (@user.Type === 2) {
+                FB.logout(function (response) {
+
+                });
+            } else if (@user.Type === 3) {
+                var auth2 = gapi.auth2.getAuthInstance();
+	            auth2.signOut().then(function () {
+       	            auth2.disconnect();
+	           });
+            }
+            window.location = "/Account/Index";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+﻿body {
+    background-image: url(../../Content/Image/jonathan-riley-VW8MUbHyxCU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#myContainer {
+    height: 100vh;
+    position: relative;
+}
+
+#myRow {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#myLoginTitle {
+    font-family: Dancing Script;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 4em;
+}
+
+#mainRow {
+    background-color: #fff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .4);
+    padding: 50px 60px;
+}
+.myButton {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+#iconButton{
+    margin-top: 15px;
+}
+.fbButton, .ggButton {
+    display: inline-block;
+    width: 45%;
+    float: left;
+    margin: 0 5px;
+}

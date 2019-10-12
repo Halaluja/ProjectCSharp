@@ -1,0 +1,171 @@
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\WebApp.dll.config
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\WebApp.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\WebApp.pdb
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\csc.exe
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\csc.exe.config
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\csc.rsp
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\csi.exe
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\csi.exe.config
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\csi.rsp
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.AppContext.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Console.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Security.Claims.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\vbc.exe
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\vbc.exe.config
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\vbc.rsp
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Antlr3.Runtime.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Newtonsoft.Json.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.Helpers.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.Mvc.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.Optimization.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.Razor.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.WebPages.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\WebGrease.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.Helpers.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.Mvc.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.Optimization.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.Razor.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.WebPages.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Newtonsoft.Json.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Antlr3.Runtime.pdb
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\obj\Release\WebApp.csprojAssemblyReference.cache
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\obj\Release\WebApp.csproj.CoreCompileInputs.cache
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\obj\Release\WebApp.csproj.CopyComplete
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\obj\Release\WebApp.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\obj\Release\WebApp.pdb
+C:\CSharp\WebApp\bin\WebApp.dll.config
+C:\CSharp\WebApp\bin\WebApp.dll
+C:\CSharp\WebApp\bin\WebApp.pdb
+C:\CSharp\WebApp\bin\roslyn\csc.exe
+C:\CSharp\WebApp\bin\roslyn\csc.exe.config
+C:\CSharp\WebApp\bin\roslyn\csc.rsp
+C:\CSharp\WebApp\bin\roslyn\csi.exe
+C:\CSharp\WebApp\bin\roslyn\csi.exe.config
+C:\CSharp\WebApp\bin\roslyn\csi.rsp
+C:\CSharp\WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\CSharp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\CSharp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\CSharp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\CSharp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\CSharp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\CSharp\WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\CSharp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\CSharp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\CSharp\WebApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\CSharp\WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\CSharp\WebApp\bin\roslyn\System.AppContext.dll
+C:\CSharp\WebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\CSharp\WebApp\bin\roslyn\System.Console.dll
+C:\CSharp\WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\CSharp\WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\CSharp\WebApp\bin\roslyn\System.IO.Compression.dll
+C:\CSharp\WebApp\bin\roslyn\System.IO.FileSystem.dll
+C:\CSharp\WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\CSharp\WebApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\CSharp\WebApp\bin\roslyn\System.IO.Pipes.dll
+C:\CSharp\WebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\CSharp\WebApp\bin\roslyn\System.Security.AccessControl.dll
+C:\CSharp\WebApp\bin\roslyn\System.Security.Claims.dll
+C:\CSharp\WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\CSharp\WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\CSharp\WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\CSharp\WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\CSharp\WebApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\CSharp\WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\CSharp\WebApp\bin\roslyn\System.ValueTuple.dll
+C:\CSharp\WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\CSharp\WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\CSharp\WebApp\bin\roslyn\System.Xml.XPath.dll
+C:\CSharp\WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\CSharp\WebApp\bin\roslyn\vbc.exe
+C:\CSharp\WebApp\bin\roslyn\vbc.exe.config
+C:\CSharp\WebApp\bin\roslyn\vbc.rsp
+C:\CSharp\WebApp\bin\roslyn\VBCSCompiler.exe
+C:\CSharp\WebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\CSharp\WebApp\bin\Antlr3.Runtime.dll
+C:\CSharp\WebApp\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\CSharp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\CSharp\WebApp\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+C:\CSharp\WebApp\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+C:\CSharp\WebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\CSharp\WebApp\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\CSharp\WebApp\bin\Microsoft.WindowsAzure.Storage.dll
+C:\CSharp\WebApp\bin\Newtonsoft.Json.dll
+C:\CSharp\WebApp\bin\System.Web.Helpers.dll
+C:\CSharp\WebApp\bin\System.Web.Mvc.dll
+C:\CSharp\WebApp\bin\System.Web.Optimization.dll
+C:\CSharp\WebApp\bin\System.Web.Razor.dll
+C:\CSharp\WebApp\bin\System.Web.WebPages.Deployment.dll
+C:\CSharp\WebApp\bin\System.Web.WebPages.dll
+C:\CSharp\WebApp\bin\System.Web.WebPages.Razor.dll
+C:\CSharp\WebApp\bin\WebGrease.dll
+C:\CSharp\WebApp\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\CSharp\WebApp\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+C:\CSharp\WebApp\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\CSharp\WebApp\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\CSharp\WebApp\bin\Microsoft.WindowsAzure.Storage.xml
+C:\CSharp\WebApp\bin\System.Web.Helpers.xml
+C:\CSharp\WebApp\bin\System.Web.Mvc.xml
+C:\CSharp\WebApp\bin\System.Web.Optimization.xml
+C:\CSharp\WebApp\bin\System.Web.Razor.xml
+C:\CSharp\WebApp\bin\System.Web.WebPages.xml
+C:\CSharp\WebApp\bin\System.Web.WebPages.Deployment.xml
+C:\CSharp\WebApp\bin\System.Web.WebPages.Razor.xml
+C:\CSharp\WebApp\bin\Newtonsoft.Json.xml
+C:\CSharp\WebApp\bin\Antlr3.Runtime.pdb
+C:\CSharp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\CSharp\WebApp\obj\Release\WebApp.csprojAssemblyReference.cache
+C:\CSharp\WebApp\obj\Release\WebApp.csproj.CopyComplete
+C:\CSharp\WebApp\obj\Release\WebApp.dll
+C:\CSharp\WebApp\obj\Release\WebApp.pdb

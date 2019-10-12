@@ -1,0 +1,23 @@
+﻿
+<!DOCTYPE html>
+<php></php>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Đăng ký</title>
+</head>
+<body>
+    <h1>Create New Account</h1>
+    <form action="/Login/Dangky/" method="POST">
+        Username<input type="text" name="userID" />@Html.ValidationMessage("userID")<br />
+        FullName<input type="text" name="userName" />@Html.ValidationMessage("userName")<br />
+        Password<input type="password" name="Password" />@Html.ValidationMessage("Password")<br />
+        Confirm Password<input type="password" name="ConfirmPassword" />@Html.ValidationMessage("ConfirmPassword")<br />
+        Address<input type="text" name="Address" />@Html.ValidationMessage("Address")<br />
+        Email<input type="text" name="Email" />@Html.ValidationMessage("Email")<br />
+        Phone Number<input type="text" name="PhoneNumber" />@Html.ValidationMessage("PhoneNumber")<br />
+        IDCardNumber<input type="text" name="IDCardNumber" />@Html.ValidationMessage("IDCardNumber")<br />
+        <input type="submit" value="Đăng ký" />
+    </form>
+</body>
+</html>

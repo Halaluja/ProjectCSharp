@@ -1,0 +1,665 @@
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\WebApp.dll.config
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\WebApp.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\WebApp.pdb
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\csc.exe
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\csc.exe.config
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\csc.rsp
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\csi.exe
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\csi.exe.config
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\csi.rsp
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\System.AppContext.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\System.Console.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\System.Security.Claims.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\vbc.exe
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\vbc.exe.config
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\vbc.rsp
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\Antlr3.Runtime.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\Newtonsoft.Json.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\System.Web.Helpers.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\System.Web.Mvc.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\System.Web.Optimization.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\System.Web.Razor.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\System.Web.WebPages.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\WebGrease.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\System.Web.Helpers.xml
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\System.Web.Mvc.xml
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\System.Web.Optimization.xml
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\System.Web.Razor.xml
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\System.Web.WebPages.xml
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\Newtonsoft.Json.xml
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\Antlr3.Runtime.pdb
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\obj\Debug\WebApp.csprojAssemblyReference.cache
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\obj\Debug\WebApp.csproj.CoreCompileInputs.cache
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\obj\Debug\WebApp.csproj.CopyComplete
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\obj\Debug\WebApp.dll
+C:\Users\Dai Ca\source\repos\WebApp\WebApp\obj\Debug\WebApp.pdb
+D:\Github\CSharp\WebApp\bin\WebApp.dll.config
+D:\Github\CSharp\WebApp\bin\WebApp.dll
+D:\Github\CSharp\WebApp\bin\WebApp.pdb
+D:\Github\CSharp\WebApp\bin\roslyn\csc.exe
+D:\Github\CSharp\WebApp\bin\roslyn\csc.exe.config
+D:\Github\CSharp\WebApp\bin\roslyn\csc.rsp
+D:\Github\CSharp\WebApp\bin\roslyn\csi.exe
+D:\Github\CSharp\WebApp\bin\roslyn\csi.exe.config
+D:\Github\CSharp\WebApp\bin\roslyn\csi.rsp
+D:\Github\CSharp\WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Github\CSharp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Github\CSharp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Github\CSharp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Github\CSharp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Github\CSharp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Github\CSharp\WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Github\CSharp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Github\CSharp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Github\CSharp\WebApp\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Github\CSharp\WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Github\CSharp\WebApp\bin\roslyn\System.AppContext.dll
+D:\Github\CSharp\WebApp\bin\roslyn\System.Collections.Immutable.dll
+D:\Github\CSharp\WebApp\bin\roslyn\System.Console.dll
+D:\Github\CSharp\WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Github\CSharp\WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Github\CSharp\WebApp\bin\roslyn\System.IO.Compression.dll
+D:\Github\CSharp\WebApp\bin\roslyn\System.IO.FileSystem.dll
+D:\Github\CSharp\WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Github\CSharp\WebApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Github\CSharp\WebApp\bin\roslyn\System.IO.Pipes.dll
+D:\Github\CSharp\WebApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\Github\CSharp\WebApp\bin\roslyn\System.Security.AccessControl.dll
+D:\Github\CSharp\WebApp\bin\roslyn\System.Security.Claims.dll
+D:\Github\CSharp\WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Github\CSharp\WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Github\CSharp\WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Github\CSharp\WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Github\CSharp\WebApp\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Github\CSharp\WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Github\CSharp\WebApp\bin\roslyn\System.ValueTuple.dll
+D:\Github\CSharp\WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Github\CSharp\WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Github\CSharp\WebApp\bin\roslyn\System.Xml.XPath.dll
+D:\Github\CSharp\WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Github\CSharp\WebApp\bin\roslyn\vbc.exe
+D:\Github\CSharp\WebApp\bin\roslyn\vbc.exe.config
+D:\Github\CSharp\WebApp\bin\roslyn\vbc.rsp
+D:\Github\CSharp\WebApp\bin\roslyn\VBCSCompiler.exe
+D:\Github\CSharp\WebApp\bin\roslyn\VBCSCompiler.exe.config
+D:\Github\CSharp\WebApp\bin\Antlr3.Runtime.dll
+D:\Github\CSharp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Github\CSharp\WebApp\bin\Microsoft.Web.Infrastructure.dll
+D:\Github\CSharp\WebApp\bin\Newtonsoft.Json.dll
+D:\Github\CSharp\WebApp\bin\System.Web.Helpers.dll
+D:\Github\CSharp\WebApp\bin\System.Web.Mvc.dll
+D:\Github\CSharp\WebApp\bin\System.Web.Optimization.dll
+D:\Github\CSharp\WebApp\bin\System.Web.Razor.dll
+D:\Github\CSharp\WebApp\bin\System.Web.WebPages.Deployment.dll
+D:\Github\CSharp\WebApp\bin\System.Web.WebPages.dll
+D:\Github\CSharp\WebApp\bin\System.Web.WebPages.Razor.dll
+D:\Github\CSharp\WebApp\bin\WebGrease.dll
+D:\Github\CSharp\WebApp\bin\System.Web.Helpers.xml
+D:\Github\CSharp\WebApp\bin\System.Web.Mvc.xml
+D:\Github\CSharp\WebApp\bin\System.Web.Optimization.xml
+D:\Github\CSharp\WebApp\bin\System.Web.Razor.xml
+D:\Github\CSharp\WebApp\bin\System.Web.WebPages.xml
+D:\Github\CSharp\WebApp\bin\System.Web.WebPages.Deployment.xml
+D:\Github\CSharp\WebApp\bin\System.Web.WebPages.Razor.xml
+D:\Github\CSharp\WebApp\bin\Newtonsoft.Json.xml
+D:\Github\CSharp\WebApp\bin\Antlr3.Runtime.pdb
+D:\Github\CSharp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Github\CSharp\WebApp\obj\Debug\WebApp.csprojAssemblyReference.cache
+D:\Github\CSharp\WebApp\obj\Debug\WebApp.csproj.CoreCompileInputs.cache
+D:\Github\CSharp\WebApp\obj\Debug\WebApp.csproj.CopyComplete
+D:\Github\CSharp\WebApp\obj\Debug\WebApp.dll
+D:\Github\CSharp\WebApp\obj\Debug\WebApp.pdb
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\WebApp.dll.config
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\WebApp.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\WebApp.pdb
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\csc.exe
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\csc.exe.config
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\csc.rsp
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\csi.exe
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\csi.exe.config
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\csi.rsp
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\System.AppContext.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\System.Console.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\System.Security.Claims.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\vbc.exe
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\vbc.exe.config
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\vbc.rsp
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\Antlr3.Runtime.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\Newtonsoft.Json.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\System.Web.Helpers.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\System.Web.Mvc.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\System.Web.Optimization.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\System.Web.Razor.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\System.Web.WebPages.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\WebGrease.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\System.Web.Helpers.xml
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\System.Web.Mvc.xml
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\System.Web.Optimization.xml
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\System.Web.Razor.xml
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\System.Web.WebPages.xml
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\Newtonsoft.Json.xml
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\Antlr3.Runtime.pdb
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\obj\Debug\WebApp.csprojAssemblyReference.cache
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\obj\Debug\WebApp.csproj.CoreCompileInputs.cache
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\obj\Debug\WebApp.csproj.CopyComplete
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\obj\Debug\WebApp.dll
+C:\Users\Duy\Desktop\New folder\ver4\WebApp\obj\Debug\WebApp.pdb
+D:\Github\CSharp\WebApp\bin\Microsoft.Azure.KeyVault.Core.dll
+D:\Github\CSharp\WebApp\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+D:\Github\CSharp\WebApp\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+D:\Github\CSharp\WebApp\bin\Microsoft.WindowsAzure.Configuration.dll
+D:\Github\CSharp\WebApp\bin\Microsoft.WindowsAzure.Storage.dll
+D:\Github\CSharp\WebApp\bin\Microsoft.Azure.KeyVault.Core.xml
+D:\Github\CSharp\WebApp\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+D:\Github\CSharp\WebApp\bin\Microsoft.WindowsAzure.Configuration.xml
+D:\Github\CSharp\WebApp\bin\Microsoft.WindowsAzure.Storage.pdb
+D:\Github\CSharp\WebApp\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\WebApp.dll.config
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\WebApp.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\WebApp.pdb
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\csc.exe
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\csc.exe.config
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\csc.rsp
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\csi.exe
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\csi.exe.config
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\csi.rsp
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.AppContext.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Console.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Security.Claims.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\vbc.exe
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\vbc.exe.config
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\vbc.rsp
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Antlr3.Runtime.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Newtonsoft.Json.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.Helpers.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.Mvc.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.Optimization.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.Razor.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.WebPages.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\WebGrease.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.Helpers.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.Mvc.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.Optimization.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.Razor.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.WebPages.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Newtonsoft.Json.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Antlr3.Runtime.pdb
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\obj\Debug\WebApp.csprojAssemblyReference.cache
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\obj\Debug\WebApp.csproj.CoreCompileInputs.cache
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\obj\Debug\WebApp.csproj.CopyComplete
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\obj\Debug\WebApp.dll
+C:\Users\Dai Ca\Desktop\Backuo\WebApp\obj\Debug\WebApp.pdb
+C:\hoctap\project1\CSharp-master\WebApp\bin\WebApp.dll.config
+C:\hoctap\project1\CSharp-master\WebApp\bin\WebApp.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\WebApp.pdb
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\csc.exe
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\csc.exe.config
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\csc.rsp
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\csi.exe
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\csi.exe.config
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\csi.rsp
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\System.AppContext.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\System.Console.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\System.IO.Compression.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\System.IO.FileSystem.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\System.IO.Pipes.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\System.Security.AccessControl.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\System.Security.Claims.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\System.ValueTuple.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\System.Xml.XPath.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\vbc.exe
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\vbc.exe.config
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\vbc.rsp
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\VBCSCompiler.exe
+C:\hoctap\project1\CSharp-master\WebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\hoctap\project1\CSharp-master\WebApp\bin\Antlr3.Runtime.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\Microsoft.WindowsAzure.Storage.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\Newtonsoft.Json.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\System.Web.Helpers.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\System.Web.Mvc.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\System.Web.Optimization.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\System.Web.Razor.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\System.Web.WebPages.Deployment.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\System.Web.WebPages.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\System.Web.WebPages.Razor.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\WebGrease.dll
+C:\hoctap\project1\CSharp-master\WebApp\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\hoctap\project1\CSharp-master\WebApp\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+C:\hoctap\project1\CSharp-master\WebApp\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\hoctap\project1\CSharp-master\WebApp\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\hoctap\project1\CSharp-master\WebApp\bin\Microsoft.WindowsAzure.Storage.xml
+C:\hoctap\project1\CSharp-master\WebApp\bin\System.Web.Helpers.xml
+C:\hoctap\project1\CSharp-master\WebApp\bin\System.Web.Mvc.xml
+C:\hoctap\project1\CSharp-master\WebApp\bin\System.Web.Optimization.xml
+C:\hoctap\project1\CSharp-master\WebApp\bin\System.Web.Razor.xml
+C:\hoctap\project1\CSharp-master\WebApp\bin\System.Web.WebPages.xml
+C:\hoctap\project1\CSharp-master\WebApp\bin\System.Web.WebPages.Deployment.xml
+C:\hoctap\project1\CSharp-master\WebApp\bin\System.Web.WebPages.Razor.xml
+C:\hoctap\project1\CSharp-master\WebApp\bin\Newtonsoft.Json.xml
+C:\hoctap\project1\CSharp-master\WebApp\bin\Antlr3.Runtime.pdb
+C:\hoctap\project1\CSharp-master\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\hoctap\project1\CSharp-master\WebApp\obj\Debug\WebApp.csprojAssemblyReference.cache
+C:\hoctap\project1\CSharp-master\WebApp\obj\Debug\WebApp.csproj.CopyComplete
+C:\hoctap\project1\CSharp-master\WebApp\obj\Debug\WebApp.dll
+C:\hoctap\project1\CSharp-master\WebApp\obj\Debug\WebApp.pdb
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\obj\Debug\WebApp.csprojAssemblyReference.cache
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\obj\Debug\WebApp.csproj.CoreCompileInputs.cache
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\obj\Debug\WebApp.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\obj\Debug\WebApp.pdb
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\WebApp.dll.config
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\WebApp.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\WebApp.pdb
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\csc.exe
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\csc.exe.config
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\csc.rsp
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\csi.exe
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\csi.exe.config
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\csi.rsp
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\System.AppContext.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\System.Console.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\System.Security.Claims.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\vbc.exe
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\vbc.exe.config
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\vbc.rsp
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\Antlr3.Runtime.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\Newtonsoft.Json.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\System.Web.Helpers.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\System.Web.Mvc.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\System.Web.Optimization.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\System.Web.Razor.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\System.Web.WebPages.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\WebGrease.dll
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\System.Web.Helpers.xml
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\System.Web.Mvc.xml
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\System.Web.Optimization.xml
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\System.Web.Razor.xml
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\System.Web.WebPages.xml
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\Newtonsoft.Json.xml
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\Antlr3.Runtime.pdb
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Duy\Desktop\New Git\CSharp\WebApp\obj\Debug\WebApp.csproj.CopyComplete
+C:\CSharp1\WebApp\bin\WebApp.dll.config
+C:\CSharp1\WebApp\bin\WebApp.dll
+C:\CSharp1\WebApp\bin\WebApp.pdb
+C:\CSharp1\WebApp\bin\Antlr3.Runtime.dll
+C:\CSharp1\WebApp\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\CSharp1\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\CSharp1\WebApp\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+C:\CSharp1\WebApp\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+C:\CSharp1\WebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\CSharp1\WebApp\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\CSharp1\WebApp\bin\Microsoft.WindowsAzure.Storage.dll
+C:\CSharp1\WebApp\bin\Newtonsoft.Json.dll
+C:\CSharp1\WebApp\bin\System.Web.Helpers.dll
+C:\CSharp1\WebApp\bin\System.Web.Mvc.dll
+C:\CSharp1\WebApp\bin\System.Web.Optimization.dll
+C:\CSharp1\WebApp\bin\System.Web.Razor.dll
+C:\CSharp1\WebApp\bin\System.Web.WebPages.Deployment.dll
+C:\CSharp1\WebApp\bin\System.Web.WebPages.dll
+C:\CSharp1\WebApp\bin\System.Web.WebPages.Razor.dll
+C:\CSharp1\WebApp\bin\WebGrease.dll
+C:\CSharp1\WebApp\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\CSharp1\WebApp\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+C:\CSharp1\WebApp\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\CSharp1\WebApp\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\CSharp1\WebApp\bin\Microsoft.WindowsAzure.Storage.xml
+C:\CSharp1\WebApp\bin\System.Web.Helpers.xml
+C:\CSharp1\WebApp\bin\System.Web.Mvc.xml
+C:\CSharp1\WebApp\bin\System.Web.Optimization.xml
+C:\CSharp1\WebApp\bin\System.Web.Razor.xml
+C:\CSharp1\WebApp\bin\System.Web.WebPages.xml
+C:\CSharp1\WebApp\bin\System.Web.WebPages.Deployment.xml
+C:\CSharp1\WebApp\bin\System.Web.WebPages.Razor.xml
+C:\CSharp1\WebApp\bin\Newtonsoft.Json.xml
+C:\CSharp1\WebApp\bin\Antlr3.Runtime.pdb
+C:\CSharp1\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\CSharp1\WebApp\obj\Debug\WebApp.csprojAssemblyReference.cache
+C:\CSharp1\WebApp\obj\Debug\WebApp.csproj.CopyComplete
+C:\CSharp1\WebApp\obj\Debug\WebApp.dll
+C:\CSharp1\WebApp\obj\Debug\WebApp.pdb
+C:\CSharp1\WebApp\bin\roslyn\csc.exe
+C:\CSharp1\WebApp\bin\roslyn\csc.exe.config
+C:\CSharp1\WebApp\bin\roslyn\csc.rsp
+C:\CSharp1\WebApp\bin\roslyn\csi.exe
+C:\CSharp1\WebApp\bin\roslyn\csi.exe.config
+C:\CSharp1\WebApp\bin\roslyn\csi.rsp
+C:\CSharp1\WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\CSharp1\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\CSharp1\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\CSharp1\WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\CSharp1\WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\CSharp1\WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\CSharp1\WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\CSharp1\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\CSharp1\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\CSharp1\WebApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\CSharp1\WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\CSharp1\WebApp\bin\roslyn\System.AppContext.dll
+C:\CSharp1\WebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\CSharp1\WebApp\bin\roslyn\System.Console.dll
+C:\CSharp1\WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\CSharp1\WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\CSharp1\WebApp\bin\roslyn\System.IO.Compression.dll
+C:\CSharp1\WebApp\bin\roslyn\System.IO.FileSystem.dll
+C:\CSharp1\WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\CSharp1\WebApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\CSharp1\WebApp\bin\roslyn\System.IO.Pipes.dll
+C:\CSharp1\WebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\CSharp1\WebApp\bin\roslyn\System.Security.AccessControl.dll
+C:\CSharp1\WebApp\bin\roslyn\System.Security.Claims.dll
+C:\CSharp1\WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\CSharp1\WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\CSharp1\WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\CSharp1\WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\CSharp1\WebApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\CSharp1\WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\CSharp1\WebApp\bin\roslyn\System.ValueTuple.dll
+C:\CSharp1\WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\CSharp1\WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\CSharp1\WebApp\bin\roslyn\System.Xml.XPath.dll
+C:\CSharp1\WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\CSharp1\WebApp\bin\roslyn\vbc.exe
+C:\CSharp1\WebApp\bin\roslyn\vbc.exe.config
+C:\CSharp1\WebApp\bin\roslyn\vbc.rsp
+C:\CSharp1\WebApp\bin\roslyn\VBCSCompiler.exe
+C:\CSharp1\WebApp\bin\roslyn\VBCSCompiler.exe.config
+D:\CSharp1\WebApp\bin\WebApp.dll.config
+D:\CSharp1\WebApp\bin\WebApp.dll
+D:\CSharp1\WebApp\bin\WebApp.pdb
+D:\CSharp1\WebApp\bin\roslyn\csc.exe
+D:\CSharp1\WebApp\bin\roslyn\csc.exe.config
+D:\CSharp1\WebApp\bin\roslyn\csc.rsp
+D:\CSharp1\WebApp\bin\roslyn\csi.exe
+D:\CSharp1\WebApp\bin\roslyn\csi.exe.config
+D:\CSharp1\WebApp\bin\roslyn\csi.rsp
+D:\CSharp1\WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\CSharp1\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\CSharp1\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\CSharp1\WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\CSharp1\WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\CSharp1\WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\CSharp1\WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\CSharp1\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\CSharp1\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\CSharp1\WebApp\bin\roslyn\Microsoft.Managed.Core.targets
+D:\CSharp1\WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\CSharp1\WebApp\bin\roslyn\System.AppContext.dll
+D:\CSharp1\WebApp\bin\roslyn\System.Collections.Immutable.dll
+D:\CSharp1\WebApp\bin\roslyn\System.Console.dll
+D:\CSharp1\WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\CSharp1\WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\CSharp1\WebApp\bin\roslyn\System.IO.Compression.dll
+D:\CSharp1\WebApp\bin\roslyn\System.IO.FileSystem.dll
+D:\CSharp1\WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\CSharp1\WebApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\CSharp1\WebApp\bin\roslyn\System.IO.Pipes.dll
+D:\CSharp1\WebApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\CSharp1\WebApp\bin\roslyn\System.Security.AccessControl.dll
+D:\CSharp1\WebApp\bin\roslyn\System.Security.Claims.dll
+D:\CSharp1\WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\CSharp1\WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\CSharp1\WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\CSharp1\WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\CSharp1\WebApp\bin\roslyn\System.Security.Principal.Windows.dll
+D:\CSharp1\WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\CSharp1\WebApp\bin\roslyn\System.ValueTuple.dll
+D:\CSharp1\WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\CSharp1\WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+D:\CSharp1\WebApp\bin\roslyn\System.Xml.XPath.dll
+D:\CSharp1\WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\CSharp1\WebApp\bin\roslyn\vbc.exe
+D:\CSharp1\WebApp\bin\roslyn\vbc.exe.config
+D:\CSharp1\WebApp\bin\roslyn\vbc.rsp
+D:\CSharp1\WebApp\bin\roslyn\VBCSCompiler.exe
+D:\CSharp1\WebApp\bin\roslyn\VBCSCompiler.exe.config
+D:\CSharp1\WebApp\bin\Antlr3.Runtime.dll
+D:\CSharp1\WebApp\bin\Microsoft.Azure.KeyVault.Core.dll
+D:\CSharp1\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\CSharp1\WebApp\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+D:\CSharp1\WebApp\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+D:\CSharp1\WebApp\bin\Microsoft.Web.Infrastructure.dll
+D:\CSharp1\WebApp\bin\Microsoft.WindowsAzure.Configuration.dll
+D:\CSharp1\WebApp\bin\Microsoft.WindowsAzure.Storage.dll
+D:\CSharp1\WebApp\bin\Newtonsoft.Json.dll
+D:\CSharp1\WebApp\bin\System.Web.Helpers.dll
+D:\CSharp1\WebApp\bin\System.Web.Mvc.dll
+D:\CSharp1\WebApp\bin\System.Web.Optimization.dll
+D:\CSharp1\WebApp\bin\System.Web.Razor.dll
+D:\CSharp1\WebApp\bin\System.Web.WebPages.Deployment.dll
+D:\CSharp1\WebApp\bin\System.Web.WebPages.dll
+D:\CSharp1\WebApp\bin\System.Web.WebPages.Razor.dll
+D:\CSharp1\WebApp\bin\WebGrease.dll
+D:\CSharp1\WebApp\bin\Microsoft.Azure.KeyVault.Core.xml
+D:\CSharp1\WebApp\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+D:\CSharp1\WebApp\bin\Microsoft.WindowsAzure.Configuration.xml
+D:\CSharp1\WebApp\bin\Microsoft.WindowsAzure.Storage.pdb
+D:\CSharp1\WebApp\bin\Microsoft.WindowsAzure.Storage.xml
+D:\CSharp1\WebApp\bin\System.Web.Helpers.xml
+D:\CSharp1\WebApp\bin\System.Web.Mvc.xml
+D:\CSharp1\WebApp\bin\System.Web.Optimization.xml
+D:\CSharp1\WebApp\bin\System.Web.Razor.xml
+D:\CSharp1\WebApp\bin\System.Web.WebPages.xml
+D:\CSharp1\WebApp\bin\System.Web.WebPages.Deployment.xml
+D:\CSharp1\WebApp\bin\System.Web.WebPages.Razor.xml
+D:\CSharp1\WebApp\bin\Newtonsoft.Json.xml
+D:\CSharp1\WebApp\bin\Antlr3.Runtime.pdb
+D:\CSharp1\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\CSharp1\WebApp\obj\Debug\WebApp.csprojAssemblyReference.cache
+D:\CSharp1\WebApp\obj\Debug\WebApp.csproj.CopyComplete
+D:\CSharp1\WebApp\obj\Debug\WebApp.dll
+D:\CSharp1\WebApp\obj\Debug\WebApp.pdb

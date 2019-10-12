@@ -1,0 +1,352 @@
+﻿<!DOCTYPE html>
+@using WebApp.Models;
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add Motel</title>
+    <style>
+
+        *, html {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+
+        .row {
+            height: 100%;
+            position: relative;
+        }
+
+        .menu {
+            height: 5vh;
+        }
+
+        .container-fluid {
+            height: 95vh;
+        }
+
+        #floating-panel {
+            position: absolute;
+            width: 35%;
+            z-index: 99;
+            left: 35%;
+            top: -0.75%;
+            transform: translate(50%, 50%);
+        }
+
+        #myGroup {
+            padding: 0;
+            overflow-y: scroll;
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    @{
+        //var data = (Login)ViewData["USER"];
+        var user = (Account)Session["USER"];
+    }
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu" style="z-index: 999">
+        <a class="navbar-brand" href="/Search/Search">Masion</a>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+            <ul style="height: 100%; margin-top: 15px">
+                <li style="height: 100%" class="nav-item dropdown">
+                    <a style="color:#fff; line-height: 100%" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Hello @user.UserName</a>
+                    <div class="dropdown-menu" style="z-index: 999; transform: translateX(-30px)">
+                        <a class="dropdown-item" href="/Motel/ViewMotel/">My Motel</a>
+                        <a class="dropdown-item" href="/Account/AccountPage/">My Profile</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/" onclick="Logout()">Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-5">
+                <form style="width: 85%; margin: 0 auto; margin-top: 25px" action="/Motel/InsertNewMotel/" method="POST">
+                    <input type="hidden" name="UserID" value="@user.UserId" readonly>
+                    <input type="hidden" name="Longitude" id="lngText" readonly>
+                    <input type="hidden" name="Latitude" id="latText" readonly>
+                    <h4 style="font-family:roboto; margin-bottom: 25px">New Motel</h4>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label col-form-label-sm">Motel ID</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control form-control-sm" name="ID" value="@ViewBag.ID" readonly>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label col-form-label-sm">Motel Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control form-control-sm" name="Name" value="">@Html.ValidationMessage("Name")
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label col-form-label-sm">Motel Address</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control form-control-sm" name="Address" id="txtAddress" value="" onfocusout="myFunction()">@Html.ValidationMessage("Address")
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label col-form-label-sm">Internet</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control form-control-sm" name="Internet" value="">@Html.ValidationMessage("Internet")
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label col-form-label-sm">Electric</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control form-control-sm" name="Electric" value="">@Html.ValidationMessage("Electric")
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label col-form-label-sm">Water</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control form-control-sm" name="Water" value="">@Html.ValidationMessage("Water")
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label col-form-label-sm">Parking Place</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control form-control-sm" name="ParkingPlace" value="">@Html.ValidationMessage("ParkingPlace")
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label col-form-label-sm">Information</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control form-control-sm" id="" name="Information" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary pull-right" type="submit">Create</button>
+                </form>
+            </div>
+            <div class="col-7">
+                <div class="input-group mb-3" id="floating-panel" style="position: absolute; top: 4%; left: 55%; transform: translate(-50%, -50%)">
+                    <input id="address" placeholder="Find Motel's Address" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                        <button id="submit" class="btn btn-primary" type="button" id="button-addon2">Search</button>
+                    </div>
+                </div>
+                <div class="col-12 myMap" id="map">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        function Logout() {
+        var check = false;
+        var type = 0;
+        @if (user != null) {
+            <text>
+            type = parseInt("@user.Type");
+            check = true; 
+            </text>
+            
+        }
+        if (type === 1) {
+
+        } else if (type === 2) {
+            FB.logout(function (response) {
+
+            });
+        } else if (type === 3) {
+            var auth2 = gapi.auth2.getAuthInstance();
+            auth2.signOut().then(function () {
+                auth2.disconnect();
+            });
+        }
+        window.location = "/Account/LogOut";
+    }
+    function loginPage() {
+        window.location = "/Account/Index";
+    }
+    </script>
+    <script>
+        
+        var options = {
+            zoom: 15,
+            center: { lat: 10.794701621548974, lng: 106.71803147657675 }
+        }
+        var map;
+        var clickMarker;
+        var markerList = [];
+        var geocoder;
+        var x;
+
+        function myFunction() {
+            var x = document.getElementById("txtAddress");
+            console.log("chay");
+            geocodeAddress(geocoder, map);
+        }
+
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), options);
+            geocoder = new google.maps.Geocoder();
+            document.getElementById('submit').addEventListener('click', function () {
+                geocodeAddress(geocoder, map);
+            });
+            // Listen for click on map
+            google.maps.event.addListener(map, 'click', function (event) {
+                // Add marker
+                createMarker(event.latLng);
+
+                //console.log(event.latLng.lat());
+                //console.log(event.latLng.lng());
+
+                document.getElementById("lngText").value = event.latLng.lng();
+                document.getElementById("latText").value = event.latLng.lat();
+                getAddress(event.latLng);
+            });
+
+            function getAddress(latLng) {
+                geocoder.geocode({ 'latLng': latLng },
+                    function (results, status) {
+                        if (status == google.maps.GeocoderStatus.OK) {
+                            if (results[0]) {
+                                document.getElementById("txtAddress").value = results[0].formatted_address;
+                                x = results[0].address_components[2].long_name;
+                                console.log(x);
+                            }
+                            else {
+                                document.getElementById("txtAddress").value = "No results";
+                            }
+                        }
+                        else {
+                            document.getElementById("txtAddress").value = status;
+                        }
+                    });
+            };
+
+            
+        }
+
+        //----------------
+            function geocodeAddress(geocoder, resultsMap) {
+                var address = document.getElementById('txtAddress').value;
+                console.log("address: "+address);
+                var tmp = -1;
+                if (address.toLowerCase().includes("hcm")) {
+                    tmp = address.toLowerCase().indexOf("hcm");
+                } else if (address.toLowerCase().includes("ho chi minh")) {
+                    tmp = address.toLowerCase().indexOf("ho chi minh");
+                }
+                else if (address.toLowerCase().includes("tp")) {
+                    tmp = address.toLowerCase().indexOf("tp");
+                    
+                } else if (address.toLowerCase().includes("thanh pho")) {
+                    tmp = address.toLowerCase().indexOf("thanh pho");
+                }
+                if (tmp > 0) {
+                    address = address.slice(0, tmp);
+                }
+                address = address + " Tp Ho Chi Minh";
+                var tmpAddress = address + " Tp Ho Chi Minh";
+                geocoder.geocode({ 'address': tmpAddress }, function (results, status) {
+                    if (status === 'OK') {
+                        resultsMap.setCenter(results[0].geometry.location);
+                        createMarker(results[0].geometry.location);
+                        //console.log(results[0].geometry.location.lat());
+                        //console.log(results[0].geometry.location.lng());
+                        document.getElementById("txtAddress").value = address;
+                        document.getElementById("lngText").value = results[0].geometry.location.lng();
+                        document.getElementById("latText").value = results[0].geometry.location.lat();
+                    } else {
+                        alert('Geocode was not successful for the following reason: ' + status);
+                    }
+                });
+
+            function createMarker(location) {
+                if (clickMarker) {
+                    clickMarker.setPosition(location);
+                } else {
+                    clickMarker = new google.maps.Marker({
+                        position: location,
+                        map: map
+                    });
+                }
+                map.zoom = map.getZoom();
+            }
+
+            function addMarker(props) {
+                var marker = new google.maps.Marker({
+                    position: props.coords,
+                    map: map,
+                    //icon:props.iconImage
+                });
+                // Check for customicon
+                if (props.iconImage) {
+                    // Set icon image
+                    marker.setIcon(props.iconImage);
+                }
+
+                // Check content
+                if (props.content) {
+                    var infoWindow = new google.maps.InfoWindow({
+                        content: props.content
+                    });
+                    marker.addListener('click', function () {
+                        infoWindow.open(map, marker);
+                    });
+                }
+            }
+
+            //function get LatLng
+            function getLatLngFromMarker() {
+                return clickMarker.getPosition();
+            }
+
+            //get current location-----------------------------
+            var current = false;
+            var DeviceLat;
+            var DeviceLng;
+            function currentLocate() {
+                navigator.geolocation.getCurrentPosition(function (position) {
+                    //---
+                    if (position.coords.latitude === DeviceLat && position.coords.longitude === DeviceLng) {
+                        current = true;
+                    } else {
+                        current = false;
+                    }
+                    if (!current) {
+                        DeviceLat = position.coords.latitude;
+                        DeviceLng = position.coords.longitude;
+                        //--
+                        var myLang = { lat: DeviceLat, lng: DeviceLng };
+                        var image = new google.maps.MarkerImage('../../Content/Image/current-location.svg',
+                            null, null, null, new google.maps.Size(20, 20));
+                        //---
+                        var marker = new google.maps.Marker({
+                            position: myLang,
+                            icon: image
+                        });
+                        marker.setMap(map);
+                        map.setCenter(new google.maps.LatLng(DeviceLat, DeviceLng));
+
+                        console.log(position);
+                        console.log(position.coords.longitude);
+                        console.log(position.coords.latitude);
+                    }
+                }, errorCallback, { timeout: 10000 });
+            }
+        }
+    </script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwoO1VqzqARJXzbRItIPDTvDCEWzHsXUQ&callback=initMap">
+    </script>
+</body>
+</html>

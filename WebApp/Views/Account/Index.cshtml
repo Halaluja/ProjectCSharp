@@ -1,0 +1,103 @@
+﻿
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway|Roboto&display=swap" rel="stylesheet">
+<link href="~/Content/LoginIndex.css" rel="stylesheet" />
+<meta name="google-signin-scope" content="profile email">
+<meta name="google-signin-client_id" content="761735900256-c5blrp9cn598t6p59t6e90bfopouhkuf.apps.googleusercontent.com">
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<div class="container" id="myContainer">
+    <div class="row" id="myRow">
+        <div class="col-1"></div>
+        <div class="col-10" id="mainRow">
+            <form action="/Account/CheckLogin" method="POST">
+                <h1 id="myLoginTitle">Maison</h1>
+                <div class="form-group">
+                    <input type="text"
+                           class="form-control"
+                           id="exampleInputEmail1"
+                           aria-describedby="emailHelp"
+                           placeholder="Enter Username"
+                           name="UserId">
+                </div>
+                <div class="form-group">
+                    <input type="password"
+                           class="form-control"
+                           id="exampleInputPassword1"
+                           placeholder="Enter Password"
+                           name="Password">
+                </div>
+                <input type="hidden" name="type" value="1" />
+                <button type="submit" class="btn btn-primary btn-sm myButton">Login</button>
+                <div id="iconButton">
+                    <div class="fb-login-button"
+                         data-width="" data-size="medium"
+                         data-button-type="login_with"
+                         data-auto-logout-link="true"
+                         data-use-continue-as="true"
+                         data-onlogin="myfunction()"></div>
+                    <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark" onclick="show()"></div>
+                </div>
+            </form>
+            <a href="/Account/Register">Taọ tài khoản mới</a>
+        </div>
+        <div class="col-1"></div>
+    </div>
+
+</div>
+
+
+<script type="text/javascript">
+    var user = { name: "", email: "", id: "" };
+    window.fbAsyncInit = function () {
+        // Được gọi lần đầu tiên khi trang web được load
+        FB.init({
+            appId: '641985593001832',
+            cookie: true,
+            xfbml: true,
+            version: 'v4.0'
+        });
+        FB.getLoginStatus(function (response) {
+            if (response.status === "connected") {
+                getUserInfo();
+            }
+        });
+    };
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) { return; }
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    function myfunction() {
+        FB.getLoginStatus(function (response) {
+            if (response.status === "connected") {
+                getUserInfo();
+            }
+        });
+
+    }
+    function getUserInfo() {
+        FB.api('/me', { fields: 'name, email, id' }, function (response) {
+            user.name = response.name;
+            user.email = response.email;
+            user.id = response.id;
+            window.location = "/Account/ApiLogin?id=" + user.id + "&name=" + user.name + "&type=2";
+        });
+    }
+</script>
+<script type="text/javascript">
+    function onSignIn(googleUser) {
+        var profile = googleUser.getBasicProfile();
+        console.log(googleUser);
+        window.location = "/Account/ApiLogin?id=" + profile.getId() + "&name=" + profile.getName() + "&type=3";
+    }
+    function show() {
+        console.log("asdasd");
+    }
+</script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v4.0&appId=641985593001832&autoLogAppEvents=1"></script>

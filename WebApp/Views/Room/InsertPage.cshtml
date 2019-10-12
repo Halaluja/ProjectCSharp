@@ -1,0 +1,45 @@
+﻿@using WebApp.Models;
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Insert Page</title>
+</head>
+<body>
+    @{
+        //var data = (Login)ViewData["USER"];
+        var user = (Account)Session["USER"];
+    }
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu" style="z-index: 999">
+        <a class="navbar-brand" href="/Search/Search">Masion</a>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+            <ul style="height: 100%; margin-top: 15px">
+                <li style="height: 100%" class="nav-item dropdown">
+                    <a style="color:#fff; line-height: 100%" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Hello @user.UserName</a>
+                    <div class="dropdown-menu" style="z-index: 999; transform: translateX(-30px)">
+                        <a class="dropdown-item" href="/Motel/ViewMotel/">My Motel</a>
+                        <a class="dropdown-item" href="/Account/AccountPage/">My Profile</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="" onclick="Logout()">Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <form action="/Room/InsertNewRoom/" method="post" enctype="multipart/form-data">
+        Room Name<input type="text" name="RoomName" value="@ViewBag.RoomName" />@Html.ValidationMessage("RoomName") @if (ViewBag.Duplicatename != null)
+        {@ViewBag.Duplicatename}<br />
+        Price<input type="text" name="Price" />@Html.ValidationMessage("Price")<br />
+        <input type="hidden" name="MotelId" value="@Session["MotelId"]" />
+        Status <input type="checkbox" name="Status" value="true" /><br />
+        Number Of People<input type="text" name="NumberOfPeople" /><br />
+        <input type="submit" value="Add New Room" /><br />
+        <input type="file" name="file" id="file" multiple>
+    </form>
+    <script>
+
+    </script>
+</body>
+</html>
